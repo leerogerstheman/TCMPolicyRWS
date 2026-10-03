@@ -1,0 +1,2 @@
+﻿n_patients,mean_pdc,median_pdc,mean_mpr,n_pdc_ge_80,pct_pdc_ge_80,mean_persistence_days,mean_fills,n_with_gap
+15,0.3317,0.239,0.3317,1,6.67,90.1,3.87,12

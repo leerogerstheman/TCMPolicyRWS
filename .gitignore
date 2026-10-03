@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Crawled corpus & generated artifacts (reproducible via `python tcm_rws.py crawl`)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+output/
+*.log
+
+# Local scratch
+.tmp/
+scratch/
+*.local.json
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*
